@@ -1,38 +1,65 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.anime-card {
+  margin-bottom: 20px;
+}
+
+.img-fluid.samehadaku-logo {
+  max-width: 300px;
+  height: auto;
+}
+
+.title-text {
+  color: #1d519a;
+}
+
+.btn-primary {
+  background-color: #1d519a;
+  border-color: #1d519a;
+}
+
+.btn-primary:hover {
+  background-color: #0f2d5c;
+  border-color: #0f2d5c;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+footer .text-light {
+  color: #fff;
+}
+
+.container-py4-bg {
+  background-color: #f0f0f0;
+}
+
+.carousel-item {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group {
+  margin-bottom: 15px;
 }
